@@ -1,15 +1,15 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-pandoc-export",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Export Markdown files to PDF, DOCX, and other formats using Pandoc.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": ["obsidian", "plugin", "pandoc", "export", "pdf", "docx"],
+	"author": "Your Name",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",

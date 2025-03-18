@@ -6,3 +6,23 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* Settings for Pandoc Export Plugin */
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+.pandoc-export-modal select {
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Add some spacing to the settings */
+.pandoc-settings .setting-item {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}

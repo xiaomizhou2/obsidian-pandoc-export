@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-pandoc-export",
+	"name": "Pandoc Export",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+	"description": "Export Markdown files to PDF, DOCX, and other formats using Pandoc.",
+	"author": "Your Name",
+	"authorUrl": "https://github.com/yourusername",
+	"isDesktopOnly": true
 }
